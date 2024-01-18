@@ -29,7 +29,7 @@
     <main class="main">
       <!-- Bagian Pratinjau -->
       <section class="main__home home" id="home">
-        <h1 class="home__title">NAME SURNAME</h1>
+        <h1 class="home__title">Khadijah Faiza Afifa Mardian</h1>
         <p class="home__subtitle">WEB-DEVELOPER, PYTHON PROGRAMMER</p>
       </section>
       <!-- Bagian Tentang Saya -->
@@ -63,7 +63,7 @@
                 width="150"
                 height="150"
               />
-              <span class="skill__info">Skill info</span>
+              <span class="skill__info">Python</span>
               <input class="skill__button" type="submit" name="button_python" value="SHOW PROJECT">
             </li>
             <li class="skills-list__skill skill">
@@ -74,7 +74,7 @@
                 width="150"
                 height="150"
               />
-              <span class="skill__info">Skill info</span>
+              <span class="skill__info">Discord Bot</span>
               <input class="skill__button" type="submit" name="button_discord" value="SHOW PROJECT">
             </li>
             <li class="skills-list__skill skill">
@@ -85,7 +85,7 @@
                 width="150"
                 height="150"
               />
-              <span class="skill__info">Skill info</span>
+              <span class="skill__info">HTML & CSS</span>
               <input class="skill__button" type="submit" name="button_html" value="SHOW PROJECT">
             </li>
             <li class="skills-list__skill skill">
@@ -96,7 +96,7 @@
                 width="150"
                 height="150"
               />
-              <span class="skill__info">Skill info</span>
+              <span class="skill__info">Database</span>
               <input class="skill__button" type="submit" name="button_db" value="SHOW PROJECT">
             </li>
           </ul>
@@ -107,13 +107,19 @@
               <a class="project__link" href="">Buka di GitHub</a>
           </div>
         {% endif %}
+        {% if button_discord%}
+          <div class="skills__project project" id="project">
+              <img class="project__img" src="../static/img/discord-project.png" alt="project" width="500">
+              <a class="project__link" href="https://github.com/FamsFamily/BotFF1_Discord">Buka di GitHub</a>
+          </div>
+        {% endif %}
       </section>
       <!-- Formulir Masukan -->
       <section class="main__feedback feedback" id="feedback">
         <h2 class="feedback__title">FEEDBACK</h2>
         <form action="" method="POST" class="feedback__form form">
           <label for="email">
-            <input type="email" class="form__input" name="email" id="email" placeholder="Введите E-mail" required>
+            <input type="email" class="form__input" name="email" id="email" placeholder="E-mail" required>
           </label>
           <label for="text">
             <textarea name="text" class="form__input" id="text" cols="70" rows="10" required placeholder="Comment"></textarea>
@@ -122,9 +128,40 @@
         </form>
       </section>
     </main>
-    <!-- Sebuah footer untuk tautan media sosial -->
+      <ul class="icon__ul">
+        <li>
+          <a class="icon__list" href="mailto:famsfamily.1432@gmail.comi">
+            <img class="item__img" src="../static/img/gmail-icon.png" alt="Gmail" height="50" width="50">
+          </a>
+        </li>
+        <li>
+          <a class="icon__list" href="https://wa.me/6281381002806">
+            <img class="item__img" src="../static/img/whatsapp-icon.png" alt="WhatsApp" height="50" width="50">
+          </a>
+        </li>
+        <li>
+          <a class="icon__list" href="https://t.me/MiFauziah">
+            <img class="item__img" src="../static/img/telegram-icon.png" alt="Telegram" height="50" width="50">
+          </a>
+        </li>
+        <li>
+          <a class="icon__list" href="https://github.com/FamsFamily">
+            <img class="item__img" src="../static/img/github-icon.png" alt="GitHub" height="50" width="50">
+          </a>
+        </li>
+        <li>
+          <a class="icon__list" href="https://discordapp.com/users/1155045220287782923">
+            <img class="item__img" src="../static/img/discord-icon.png" alt="Discord" height="50" width="50">
+          </a>
+        </li>
+        <li>
+          <a class="icon__list" href="https://www.instagram.com/smardian5">
+            <img class="item__img" src="../static/img/instagram-icon.png" alt="Instagram" height="50" width="50">
+          </a>
+        </li>
+      </ul>
     <footer>
-
+      
     </footer>
   </body>
 </html>
