@@ -15,8 +15,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2em;
-  background: linear-gradient(180deg, #392657 0%, rgba(57, 38, 87, 0.8) 100%);
-  color: #ffffff;
+  background: linear-gradient(180deg, #03a9f4 0%, #68cbf8 100%);
+  color: #00008B;
 }
 
 h1,
@@ -76,7 +76,7 @@ ul {
   width: 55%;
   height: 3px;
   bottom: -12px;
-  background: #a178b9;
+  background: #00008B;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -97,10 +97,10 @@ ul {
 }
 
 .home__title {
-  letter-spacing: 0.3em;
+  letter-spacing: 0.01em;
   font-size: 70px;
   text-align: center;
-  color: #a178b9;
+  color: #00008B;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -120,7 +120,7 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #00008B;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -164,7 +164,7 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #00008B;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -180,7 +180,7 @@ ul {
   width: 60%;
   height: 1px;
   bottom: -13px;
-  background: #fff;
+  background: #00008B;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -207,7 +207,7 @@ ul {
 .skill__button {
   font: inherit;
   font-weight: 700;
-  color: #fff;
+  color: #00008B;
   background: none;
   border: none;
   cursor: pointer;
@@ -215,7 +215,7 @@ ul {
 }
 
 .skill__button:hover {
-  color: #cc8bf2;
+  color: #00008B;
 }
 
 .project {
@@ -247,7 +247,7 @@ ul {
   width: 55%;
   height: 3px;
   bottom: -12px;
-  background: #a178b9;
+  background: #00008B;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -266,7 +266,7 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #00008B;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -282,7 +282,7 @@ ul {
   width: 60%;
   height: 1px;
   bottom: -13px;
-  background: #fff;
+  background: #00008B;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -301,16 +301,16 @@ ul {
 .form__input {
   width: 100%;
   font: inherit;
-  background: #392657;
-  border: 2px solid #a178b9;
-  color: #fff;
+  background: #03a9f4;
+  border: 2px solid #00008B;
+  color: #00008B;
   padding: 15px;
   border-radius: 10px;
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
 }
 
 .form__input::placeholder {
-  color: #fff;
+  color: #00008B;
 }
 
 .form__input:active,
@@ -323,11 +323,31 @@ ul {
 .form__button {
   font: inherit;
   font-weight: 800;
-  color: #fff;
-  background: linear-gradient(111.97deg, #CC8BF2 35.63%, rgba(204, 139, 242, 0) 150.16%);
+  color: #00008B;
+  background: linear-gradient(111.97deg, #03a9f4 35.63%, #68cbf8 150.16%);
+  border-color: #00008B;
+  border-width: 2px;
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
   padding: 15px 30px;
   border-radius: 20px;
-  border: none;
   cursor: pointer;
+}
+
+.icon__list {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: inherit;
+  border-radius: 260px;
+  border: 1px solid #00008B;
+  transition: 0.2s;
+  margin-bottom: 30px;
+  margin-right: 15px;
+}
+
+.icon__ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
